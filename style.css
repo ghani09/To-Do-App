@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: cadetblue;
+}
+.container{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding:40px 20px;
+    background-color: beige;
+}
+.form{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+input[type="text"]{
+    width:70%;
+    padding:5px;
+    outline:none;
+    border:none;
+    border-radius: 8px;
+}
+.btn{
+    width:15%;
+    background-color: blue;
+    color:white;
+    padding:7px;
+    border:none;
+    border-radius: 8px;
+}
+input:focus{
+    border: 1px solid lightblue;
+}
+
+.taskList{
+   
+    margin-top: 20px;
+    width:80% ;
+    padding:4px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.task{
+  
+    width:100%;
+    display: flex;
+    background-color: azure;
+    padding:4px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+   
+
+}
+.delBtn{
+    /* align-self: flex-end; */
+    background-color: none;
+    border:none;
+}
+i{
+    color:red;
+}
+.alert{
+    color:red;
+}
+
+
